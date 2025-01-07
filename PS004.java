@@ -37,8 +37,8 @@ class PartTimeEmployee extends EmployeeDetails {
 }
 public class PS004 {
     public static void main(String[] args) {
-        new FullTimeEmployee("Mahesh", 101, 50000, "Life Insurance").showDetails();
+        new FullTimeEmployee("Dhanvanth", 101, 50000, "Life Insurance").showDetails();
         System.out.println();
-        new PartTimeEmployee("Bob", 102, 25000, 20).showDetails();
+        new PartTimeEmployee("Adari", 102, 25000, 20).showDetails();
     }
 }

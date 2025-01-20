@@ -1,6 +1,6 @@
 
 
-public class Example2 {
+public class Demo003 {
     public static void main(String[] args) {
         String username ="user001";
         String password ="user_001";

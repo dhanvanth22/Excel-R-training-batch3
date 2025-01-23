@@ -1,13 +1,20 @@
+import java.util.Scanner;
 
+class Demo003{
+    public static void main(String[] args){
+         Scanner sc = new Scanner(System.in);
+            System.out.println("Enter 3 numbers: ");
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            int c = sc.nextInt();
 
-public class Demo003 {
-    public static void main(String[] args) {
-        String username ="user001";
-        String password ="user_001";
-
-        while((username =="user001")&&(password == "user_001")){
-            System.out.println("Hello user happy new year");
-            break;
-        }
+            if(a>b&&a>c){
+                System.out.println(a+" is greater than "+b+" and "+c);
+            }else if(b>a&&b>c){
+                System.out.println(b+" is greater than "+a+" and "+c);
+            }else{
+                System.out.println(c+" is greater than "+a+" and "+b);
+            }
+        sc.close();
     }
 }

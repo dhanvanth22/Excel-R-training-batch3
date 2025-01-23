@@ -1,12 +1,7 @@
-public class Grater {
+class Demo004{
     public static void main(String[] args) {
-        int A =10;
-        int B =20;
-        if(A>B){
-            System.out.println("A is grater");
-        }
-        else{
-            System.out.println("B is grater");
+        for(int i = 1; i<=100;i++){
+            System.out.println(i);
         }
     }
 }

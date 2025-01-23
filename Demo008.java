@@ -11,7 +11,7 @@ public class Demo008{
             username = scanner.nextLine();
             System.out.print("Enter password: ");
             password = scanner.nextLine();
-            if (username.equals("Mahesh") && password.equals("Mahesh@123")) {
+            if (username.equals("Dhanvanth") && password.equals("Dhanvanth@123")) {
                 System.out.println(username + "Welcome to Mallareddy University");
                 break;
             } else {
